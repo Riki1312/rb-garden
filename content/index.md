@@ -1,8 +1,10 @@
 ---
-image: preview.jpg
+image: assets/index.jpg
 ---
 
-# Nuxt Typography
+# Garden Home
+
+Hello.
 
 A Nuxt theme to get a beautiful and customisable typography with a set of prose components for [Nuxt Content](https://content.nuxtjs.org).
 
@@ -11,6 +13,7 @@ Repository is on GitHub: [nuxt-themes/typography](https://github.com/nuxt-themes
 See also the [online playground](https://stackblitz.com/edit/nuxt-theme-typography?file=content/index.md).
 
 Some examples:
+
 - [Basic example](/example)
 - [Tailwind Typograhy content](/tailwind)
 - [Dynamic GitHub Readme viewer](https://nuxt-typo-readme.vercel.app)
@@ -153,7 +156,6 @@ Check out the [highlight options](https://content.nuxtjs.org/api/configuration#h
 
 ### `<ProseH1>`
 
-
 # H1 Heading
 
 ```md [Code]
@@ -166,7 +168,7 @@ Check out the [highlight options](https://content.nuxtjs.org/api/configuration#h
 ## H2 Heading
 ```
 
-  ## H2 Heading
+## H2 Heading
 
 ### `<ProseH3>`
 
@@ -214,7 +216,7 @@ Check out the [highlight options](https://content.nuxtjs.org/api/configuration#h
 ![A Cool Image](/preview.jpg)
 ```
 
-![A Cool Image](/preview.jpg) 
+![A Cool Image](/preview.jpg)
 
 ### `<ProseUl>`
 
@@ -287,6 +289,7 @@ _Just an italic paragraph._
 | 3 | Wonderful | Website |
 
 It also includes:
+
 - `<ProseTbody>`
 - `<ProseTd>`
 - `<ProseTh>`

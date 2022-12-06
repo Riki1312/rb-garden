@@ -1,15 +1,20 @@
 <template>
+
   <Head>
+    <Title>Garden</Title>
+    <Meta name="description" content="Garden - RiccardoBrero" />
     <Meta name="twitter:card" content="summary_large_image" />
+
+    <Link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </Head>
   <nav>
     <NuxtLink to="/" v-if="$route.path !== '/'">
       <Icon name="ph:house-simple" />
     </NuxtLink>
-    <a href="https://github.com/nuxt-themes/typography" target="_blank" rel="noopener">
+    <a href="https://github.com/riki1312/rb-garden" target="_blank" rel="noopener">
       <Icon name="carbon:logo-github" />
     </a>
-    <button @click="$colorMode.preference = $colorMode.preference === 'dark' ? 'light' : 'dark'" >
+    <button @click="$colorMode.preference = $colorMode.preference === 'dark' ? 'light' : 'dark'">
       <Icon name="ph:sun" v-if="$colorMode.preference === 'light'" />
       <Icon name="ph:moon" v-else />
     </button>
@@ -17,6 +22,7 @@
   <article class="page">
     <NuxtPage />
   </article>
+
 </template>
 
 <style lang="ts">
